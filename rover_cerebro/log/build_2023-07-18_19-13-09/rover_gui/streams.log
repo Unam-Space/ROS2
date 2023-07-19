@@ -1,0 +1,28 @@
+[0.661s] Invoking command in '/home/lolineko/ROS2/rover_cerebro/src/rover_gui': PYTHONPATH=/home/lolineko/ROS2/rover_cerebro/build/rover_gui/prefix_override:/home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_gui build --build-base /home/lolineko/ROS2/rover_cerebro/build/rover_gui/build install --record /home/lolineko/ROS2/rover_cerebro/build/rover_gui/install.log --install-scripts $base/lib/rover_gui --single-version-externally-managed
+[0.878s] running egg_info
+[0.879s] writing ../../build/rover_gui/rover_gui.egg-info/PKG-INFO
+[0.879s] writing dependency_links to ../../build/rover_gui/rover_gui.egg-info/dependency_links.txt
+[0.879s] writing entry points to ../../build/rover_gui/rover_gui.egg-info/entry_points.txt
+[0.880s] writing requirements to ../../build/rover_gui/rover_gui.egg-info/requires.txt
+[0.880s] writing top-level names to ../../build/rover_gui/rover_gui.egg-info/top_level.txt
+[0.913s] reading manifest file '../../build/rover_gui/rover_gui.egg-info/SOURCES.txt'
+[0.914s] writing manifest file '../../build/rover_gui/rover_gui.egg-info/SOURCES.txt'
+[0.914s] running build
+[0.915s] running build_py
+[0.915s] copying rover_gui/talker.py -> /home/lolineko/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui
+[0.915s] copying rover_gui/listener.py -> /home/lolineko/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui
+[0.915s] running install
+[0.915s] running install_lib
+[0.916s] copying /home/lolineko/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui/talker.py -> /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui
+[0.917s] copying /home/lolineko/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui/listener.py -> /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui
+[0.917s] byte-compiling /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui/talker.py to talker.cpython-38.pyc
+[0.918s] byte-compiling /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui/listener.py to listener.cpython-38.pyc
+[0.919s] running install_data
+[0.919s] running install_egg_info
+[0.921s] removing '/home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui-0.0.0-py3.8.egg-info' (and everything under it)
+[0.921s] Copying ../../build/rover_gui/rover_gui.egg-info to /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui-0.0.0-py3.8.egg-info
+[0.922s] running install_scripts
+[0.941s] Installing listenerNode script to /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/rover_gui
+[0.941s] Installing talkerNode script to /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/rover_gui
+[0.942s] writing list of installed files to '/home/lolineko/ROS2/rover_cerebro/build/rover_gui/install.log'
+[0.970s] Invoked command in '/home/lolineko/ROS2/rover_cerebro/src/rover_gui' returned '0': PYTHONPATH=/home/lolineko/ROS2/rover_cerebro/build/rover_gui/prefix_override:/home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_gui build --build-base /home/lolineko/ROS2/rover_cerebro/build/rover_gui/build install --record /home/lolineko/ROS2/rover_cerebro/build/rover_gui/install.log --install-scripts $base/lib/rover_gui --single-version-externally-managed

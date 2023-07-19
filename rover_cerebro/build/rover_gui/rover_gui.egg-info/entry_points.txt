@@ -1,0 +1,4 @@
+[console_scripts]
+GUINode = rover_gui.RoverGUI:main
+talkerNode = rover_gui.talker:main
+

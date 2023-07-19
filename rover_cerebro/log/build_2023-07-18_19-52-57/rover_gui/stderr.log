@@ -1,0 +1,5 @@
+  File "/home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui/RoverGUI.py", line 17
+    import .nodos_gui
+           ^
+SyntaxError: invalid syntax
+

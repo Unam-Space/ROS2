@@ -1,0 +1,5 @@
+  File "/home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui/RoverGUI.py", line 197
+    Node.create_subscription(String,'topic', listener_callback, 10, ,qos.qos_profile_sensor_data)
+                                                                    ^
+SyntaxError: invalid syntax
+

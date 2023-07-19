@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/rover_gui/rover_gui.egg-info
+writing ../../build/rover_gui/rover_gui.egg-info/PKG-INFO
+writing dependency_links to ../../build/rover_gui/rover_gui.egg-info/dependency_links.txt
+writing entry points to ../../build/rover_gui/rover_gui.egg-info/entry_points.txt
+writing requirements to ../../build/rover_gui/rover_gui.egg-info/requires.txt
+writing top-level names to ../../build/rover_gui/rover_gui.egg-info/top_level.txt
+writing manifest file '../../build/rover_gui/rover_gui.egg-info/SOURCES.txt'
+reading manifest file '../../build/rover_gui/rover_gui.egg-info/SOURCES.txt'
+writing manifest file '../../build/rover_gui/rover_gui.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lolineko/ROS2/rover_cerebro/build/rover_gui/build
+creating /home/lolineko/ROS2/rover_cerebro/build/rover_gui/build/lib
+creating /home/lolineko/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui
+copying rover_gui/talker.py -> /home/lolineko/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui
+copying rover_gui/__init__.py -> /home/lolineko/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui
+running install
+running install_lib
+creating /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui
+copying /home/lolineko/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui/talker.py -> /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui
+copying /home/lolineko/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui/__init__.py -> /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui
+byte-compiling /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui/talker.py to talker.cpython-38.pyc
+byte-compiling /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/lolineko/ROS2/rover_cerebro/install/rover_gui/share/ament_index
+creating /home/lolineko/ROS2/rover_cerebro/install/rover_gui/share/ament_index/resource_index
+creating /home/lolineko/ROS2/rover_cerebro/install/rover_gui/share/ament_index/resource_index/packages
+copying resource/rover_gui -> /home/lolineko/ROS2/rover_cerebro/install/rover_gui/share/ament_index/resource_index/packages
+copying package.xml -> /home/lolineko/ROS2/rover_cerebro/install/rover_gui/share/rover_gui
+running install_egg_info
+Copying ../../build/rover_gui/rover_gui.egg-info to /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui-0.0.0-py3.8.egg-info
+running install_scripts
+Installing talkerNode script to /home/lolineko/ROS2/rover_cerebro/install/rover_gui/lib/rover_gui
+writing list of installed files to '/home/lolineko/ROS2/rover_cerebro/build/rover_gui/install.log'
