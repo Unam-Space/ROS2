@@ -11,9 +11,10 @@ Para la ejecucion en caso de no tener el source de ros ejecutar en la terminal:
 
 Para ejecutar el paquete con el archivo ejecutar las siguientes lineas donde se encuentre la carpeta src
 
-> source ./install.setup.bash
 
 > colcon build
+
+> source ./install/setup.bash 
 
 > ros2 run rover_gui GUINode
 
