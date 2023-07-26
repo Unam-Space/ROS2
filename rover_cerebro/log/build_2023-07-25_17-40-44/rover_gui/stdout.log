@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/rover_gui/rover_gui.egg-info/PKG-INFO
+writing dependency_links to ../../build/rover_gui/rover_gui.egg-info/dependency_links.txt
+writing entry points to ../../build/rover_gui/rover_gui.egg-info/entry_points.txt
+writing requirements to ../../build/rover_gui/rover_gui.egg-info/requires.txt
+writing top-level names to ../../build/rover_gui/rover_gui.egg-info/top_level.txt
+reading manifest file '../../build/rover_gui/rover_gui.egg-info/SOURCES.txt'
+writing manifest file '../../build/rover_gui/rover_gui.egg-info/SOURCES.txt'
+running build
+running build_py
+copying rover_gui/camera_publisher.py -> /home/lolineko/Documents/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui
+running install
+running install_lib
+copying /home/lolineko/Documents/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui/camera_publisher.py -> /home/lolineko/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui
+byte-compiling /home/lolineko/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui/camera_publisher.py to camera_publisher.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/lolineko/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/rover_gui/rover_gui.egg-info to /home/lolineko/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui-0.0.0-py3.8.egg-info
+running install_scripts
+Installing camera_publisher script to /home/lolineko/Documents/ROS2/rover_cerebro/install/rover_gui/lib/rover_gui
+writing list of installed files to '/home/lolineko/Documents/ROS2/rover_cerebro/build/rover_gui/install.log'

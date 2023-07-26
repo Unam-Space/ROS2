@@ -9,14 +9,10 @@ setup.py
 ../../build/rover_gui/rover_gui.egg-info/top_level.txt
 ../../build/rover_gui/rover_gui.egg-info/zip-safe
 resource/rover_gui
-rover_gui/Component.py
-rover_gui/Gadgets.py
-rover_gui/KeyboardControl.py
 rover_gui/RoverGUI.py
-rover_gui/Window.py
 rover_gui/__init__.py
-rover_gui/main.py
-rover_gui/talker.py
+rover_gui/camera_publisher.py
+rover_gui/camera_suscriber.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

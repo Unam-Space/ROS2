@@ -1,0 +1,24 @@
+[0.731s] Invoking command in '/home/lolineko/Documents/ROS2/rover_cerebro/src/rover_gui': PYTHONPATH=/home/lolineko/Documents/ROS2/rover_cerebro/build/rover_gui/prefix_override:/home/lolineko/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_gui build --build-base /home/lolineko/Documents/ROS2/rover_cerebro/build/rover_gui/build install --record /home/lolineko/Documents/ROS2/rover_cerebro/build/rover_gui/install.log --install-scripts $base/lib/rover_gui --single-version-externally-managed
+[0.947s] running egg_info
+[0.948s] writing ../../build/rover_gui/rover_gui.egg-info/PKG-INFO
+[0.948s] writing dependency_links to ../../build/rover_gui/rover_gui.egg-info/dependency_links.txt
+[0.948s] writing entry points to ../../build/rover_gui/rover_gui.egg-info/entry_points.txt
+[0.948s] writing requirements to ../../build/rover_gui/rover_gui.egg-info/requires.txt
+[0.948s] writing top-level names to ../../build/rover_gui/rover_gui.egg-info/top_level.txt
+[0.987s] reading manifest file '../../build/rover_gui/rover_gui.egg-info/SOURCES.txt'
+[0.988s] writing manifest file '../../build/rover_gui/rover_gui.egg-info/SOURCES.txt'
+[0.988s] running build
+[0.989s] running build_py
+[0.989s] copying rover_gui/camera_publisher.py -> /home/lolineko/Documents/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui
+[0.989s] running install
+[0.989s] running install_lib
+[0.990s] copying /home/lolineko/Documents/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui/camera_publisher.py -> /home/lolineko/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui
+[0.991s] byte-compiling /home/lolineko/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui/camera_publisher.py to camera_publisher.cpython-38.pyc
+[0.993s] running install_data
+[0.993s] running install_egg_info
+[0.994s] removing '/home/lolineko/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui-0.0.0-py3.8.egg-info' (and everything under it)
+[0.995s] Copying ../../build/rover_gui/rover_gui.egg-info to /home/lolineko/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui-0.0.0-py3.8.egg-info
+[0.995s] running install_scripts
+[1.012s] Installing camera_publisher script to /home/lolineko/Documents/ROS2/rover_cerebro/install/rover_gui/lib/rover_gui
+[1.013s] writing list of installed files to '/home/lolineko/Documents/ROS2/rover_cerebro/build/rover_gui/install.log'
+[1.041s] Invoked command in '/home/lolineko/Documents/ROS2/rover_cerebro/src/rover_gui' returned '0': PYTHONPATH=/home/lolineko/Documents/ROS2/rover_cerebro/build/rover_gui/prefix_override:/home/lolineko/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_gui build --build-base /home/lolineko/Documents/ROS2/rover_cerebro/build/rover_gui/build install --record /home/lolineko/Documents/ROS2/rover_cerebro/build/rover_gui/install.log --install-scripts $base/lib/rover_gui --single-version-externally-managed

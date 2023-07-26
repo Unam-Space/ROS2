@@ -1,4 +1,5 @@
 [console_scripts]
 GUINode = rover_gui.RoverGUI:main
-talkerNode = rover_gui.talker:main
+camera_publisher = rover_gui.camera_publisher:main
+camera_suscriber = rover_gui.camera_suscriber:main
 

@@ -20,9 +20,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talkerNode = rover_gui.talker:main',
+            #'talkerNode = rover_gui.talker:main',
             #'listenerNode = rover_gui.listener:main'
-            'GUINode = rover_gui.RoverGUI:main'
+            'GUINode = rover_gui.RoverGUI:main',
+            'camera_publisher = rover_gui.camera_publisher:main',
+            'camera_suscriber = rover_gui.camera_suscriber:main'
         ],
     },
 )

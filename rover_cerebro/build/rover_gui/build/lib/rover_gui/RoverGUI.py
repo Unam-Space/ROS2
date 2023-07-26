@@ -152,7 +152,7 @@ def SetImages():
     logoSize = int(imageSize * scaleNumber)
     imgOffset = (frameWdth[0] - logoSize)/2
 
-    ruta = '/home/lolineko/ROS2/rover_cerebro/src/rover_gui/rover_gui/'
+    ruta = '/home/lolineko/Documents/ROS2/rover_cerebro/src/rover_gui/rover_gui/'
 
     UNAMSpaceLogo = ImageTk.PhotoImage(PIL.Image.open(ruta + "Images/f.png").resize((logoSize,logoSize)))
     labelLogo = tkinter.Label(mainWindow, bg = "#181E36", image = UNAMSpaceLogo, width = logoSize , height = logoSize)
