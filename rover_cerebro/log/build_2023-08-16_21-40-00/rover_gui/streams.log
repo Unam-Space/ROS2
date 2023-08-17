@@ -1,0 +1,25 @@
+[1.731s] Invoking command in '/home/rover-ubuntu/Documents/ROS2/rover_cerebro/src/rover_gui': PYTHONPATH=/home/rover-ubuntu/Documents/ROS2/rover_cerebro/build/rover_gui/prefix_override:/home/rover-ubuntu/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_gui build --build-base /home/rover-ubuntu/Documents/ROS2/rover_cerebro/build/rover_gui/build install --record /home/rover-ubuntu/Documents/ROS2/rover_cerebro/build/rover_gui/install.log --install-scripts $base/lib/rover_gui --single-version-externally-managed
+[2.191s] running egg_info
+[2.191s] writing ../../build/rover_gui/rover_gui.egg-info/PKG-INFO
+[2.197s] writing dependency_links to ../../build/rover_gui/rover_gui.egg-info/dependency_links.txt
+[2.198s] writing entry points to ../../build/rover_gui/rover_gui.egg-info/entry_points.txt
+[2.198s] writing requirements to ../../build/rover_gui/rover_gui.egg-info/requires.txt
+[2.198s] writing top-level names to ../../build/rover_gui/rover_gui.egg-info/top_level.txt
+[2.258s] reading manifest file '../../build/rover_gui/rover_gui.egg-info/SOURCES.txt'
+[2.259s] writing manifest file '../../build/rover_gui/rover_gui.egg-info/SOURCES.txt'
+[2.259s] running build
+[2.260s] running build_py
+[2.261s] copying rover_gui/algoritmo.py -> /home/rover-ubuntu/Documents/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui
+[2.263s] running install
+[2.270s] running install_lib
+[2.271s] copying /home/rover-ubuntu/Documents/ROS2/rover_cerebro/build/rover_gui/build/lib/rover_gui/algoritmo.py -> /home/rover-ubuntu/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui
+[2.274s] byte-compiling /home/rover-ubuntu/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui/algoritmo.py to algoritmo.cpython-38.pyc
+[2.274s] running install_data
+[2.275s] running install_egg_info
+[2.275s] removing '/home/rover-ubuntu/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui-0.0.0-py3.8.egg-info' (and everything under it)
+[2.275s] Copying ../../build/rover_gui/rover_gui.egg-info to /home/rover-ubuntu/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages/rover_gui-0.0.0-py3.8.egg-info
+[2.275s] running install_scripts
+[2.319s] Installing algoritmo script to /home/rover-ubuntu/Documents/ROS2/rover_cerebro/install/rover_gui/lib/rover_gui
+[2.319s] Installing velocidad_talker script to /home/rover-ubuntu/Documents/ROS2/rover_cerebro/install/rover_gui/lib/rover_gui
+[2.322s] writing list of installed files to '/home/rover-ubuntu/Documents/ROS2/rover_cerebro/build/rover_gui/install.log'
+[2.373s] Invoked command in '/home/rover-ubuntu/Documents/ROS2/rover_cerebro/src/rover_gui' returned '0': PYTHONPATH=/home/rover-ubuntu/Documents/ROS2/rover_cerebro/build/rover_gui/prefix_override:/home/rover-ubuntu/Documents/ROS2/rover_cerebro/install/rover_gui/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_gui build --build-base /home/rover-ubuntu/Documents/ROS2/rover_cerebro/build/rover_gui/build install --record /home/rover-ubuntu/Documents/ROS2/rover_cerebro/build/rover_gui/install.log --install-scripts $base/lib/rover_gui --single-version-externally-managed

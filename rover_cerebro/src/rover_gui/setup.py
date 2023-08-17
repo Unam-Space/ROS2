@@ -22,9 +22,11 @@ setup(
         'console_scripts': [
             #'talkerNode = rover_gui.talker:main',
             #'listenerNode = rover_gui.listener:main'
-            'GUINode = rover_gui.RoverGUI:main',
-            'camera_publisher = rover_gui.camera_publisher:main',
-            'camera_suscriber = rover_gui.camera_suscriber:main'
+            #'GUINode = rover_gui.RoverGUI:main',
+            #'camera_publisher = rover_gui.camera_publisher:main',
+            #'camera_suscriber = rover_gui.camera_suscriber:main'
+            'velocidad_talker = rover_gui.velocidad_publisher:main',
+            'algoritmo = rover_gui.algoritmo:main'
         ],
     },
 )

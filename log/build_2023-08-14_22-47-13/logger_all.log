@@ -1,0 +1,150 @@
+[0.468s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.469s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f08ec0ce6d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f08ec0ce6d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f08ec0cec10>)
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.514s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rover-ubuntu/Documents/ROS2'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extensions ['colcon_pkg']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extension 'colcon_pkg'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extensions ['colcon_meta']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extension 'colcon_meta'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extensions ['ros']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extension 'ros'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extensions ['cmake', 'python']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extension 'cmake'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extension 'python'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extensions ['python_setup_py']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro) by extension 'python_setup_py'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/build) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/build) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/build) ignored
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/install) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/install) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/install) ignored
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/log) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/log) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/log) ignored
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extension 'ignore_ament_install'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extensions ['colcon_pkg']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extension 'colcon_pkg'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extensions ['colcon_meta']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extension 'colcon_meta'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extension 'ros'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extensions ['cmake', 'python']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extension 'cmake'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extension 'python'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extensions ['python_setup_py']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src) by extension 'python_setup_py'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src/rover_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src/rover_gui) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src/rover_gui) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src/rover_gui) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src/rover_gui) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src/rover_gui) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src/rover_gui) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src/rover_gui) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rover_cerebro/src/rover_gui) by extension 'ros'
+[0.567s] DEBUG:colcon.colcon_core.package_identification:Package 'rover_cerebro/src/rover_gui' with type 'ros.ament_python' and name 'rover_gui'
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.614s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rover-ubuntu/Documents/ROS2/install
+[0.616s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'rover_gui' build argument 'cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'rover_gui' build argument 'cmake_target' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'rover_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'rover_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'rover_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'rover_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'rover_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'rover_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'rover_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.717s] DEBUG:colcon.colcon_core.verb:Building package 'rover_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rover-ubuntu/Documents/ROS2/build/rover_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rover-ubuntu/Documents/ROS2/install/rover_gui', 'merge_install': False, 'path': '/home/rover-ubuntu/Documents/ROS2/rover_cerebro/src/rover_gui', 'symlink_install': False, 'test_result_base': None}
+[0.718s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.725s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rover-ubuntu/Documents/ROS2/rover_cerebro/src/rover_gui' with build type 'ament_python'
+[0.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_gui', 'ament_prefix_path')
+[0.740s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/share/rover_gui/hook/ament_prefix_path.ps1'
+[0.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/share/rover_gui/hook/ament_prefix_path.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/share/rover_gui/hook/ament_prefix_path.sh'
+[0.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.752s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.182s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rover-ubuntu/Documents/ROS2/rover_cerebro/src/rover_gui'
+[1.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rover-ubuntu/Documents/ROS2/rover_cerebro/src/rover_gui': PYTHONPATH=/home/rover-ubuntu/Documents/ROS2/build/rover_gui/prefix_override:/home/rover-ubuntu/Documents/ROS2/install/rover_gui/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rover_gui build --build-base /home/rover-ubuntu/Documents/ROS2/build/rover_gui/build install --record /home/rover-ubuntu/Documents/ROS2/build/rover_gui/install.log --install-scripts $base/lib/rover_gui --single-version-externally-managed
+[2.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rover-ubuntu/Documents/ROS2/rover_cerebro/src/rover_gui' returned '0': PYTHONPATH=/home/rover-ubuntu/Documents/ROS2/build/rover_gui/prefix_override:/home/rover-ubuntu/Documents/ROS2/install/rover_gui/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rover_gui build --build-base /home/rover-ubuntu/Documents/ROS2/build/rover_gui/build install --record /home/rover-ubuntu/Documents/ROS2/build/rover_gui/install.log --install-scripts $base/lib/rover_gui --single-version-externally-managed
+[2.550s] Level 1:colcon.colcon_core.environment:checking '/home/rover-ubuntu/Documents/ROS2/install/rover_gui' for CMake module files
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/rover-ubuntu/Documents/ROS2/install/rover_gui' for CMake config files
+[2.555s] Level 1:colcon.colcon_core.environment:checking '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/lib'
+[2.555s] Level 1:colcon.colcon_core.environment:checking '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/bin'
+[2.556s] Level 1:colcon.colcon_core.environment:checking '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/lib/pkgconfig/rover_gui.pc'
+[2.557s] Level 1:colcon.colcon_core.environment:checking '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/lib/python3.8/site-packages'
+[2.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_gui', 'pythonpath')
+[2.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/share/rover_gui/hook/pythonpath.ps1'
+[2.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/share/rover_gui/hook/pythonpath.dsv'
+[2.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/share/rover_gui/hook/pythonpath.sh'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/bin'
+[2.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_gui)
+[2.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/share/rover_gui/package.ps1'
+[2.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/share/rover_gui/package.dsv'
+[2.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/share/rover_gui/package.sh'
+[2.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/share/rover_gui/package.bash'
+[2.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover-ubuntu/Documents/ROS2/install/rover_gui/share/rover_gui/package.zsh'
+[2.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rover-ubuntu/Documents/ROS2/install/rover_gui/share/colcon-core/packages/rover_gui)
+[2.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.599s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.601s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.620s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.621s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.621s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.673s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.675s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rover-ubuntu/Documents/ROS2/install/local_setup.ps1'
+[2.680s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rover-ubuntu/Documents/ROS2/install/_local_setup_util_ps1.py'
+[2.698s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rover-ubuntu/Documents/ROS2/install/setup.ps1'
+[2.704s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rover-ubuntu/Documents/ROS2/install/local_setup.sh'
+[2.706s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rover-ubuntu/Documents/ROS2/install/_local_setup_util_sh.py'
+[2.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rover-ubuntu/Documents/ROS2/install/setup.sh'
+[2.711s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rover-ubuntu/Documents/ROS2/install/local_setup.bash'
+[2.713s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rover-ubuntu/Documents/ROS2/install/setup.bash'
+[2.716s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rover-ubuntu/Documents/ROS2/install/local_setup.zsh'
+[2.720s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rover-ubuntu/Documents/ROS2/install/setup.zsh'
