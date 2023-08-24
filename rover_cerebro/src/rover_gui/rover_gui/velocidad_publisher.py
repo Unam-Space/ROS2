@@ -1,0 +1,63 @@
+import rclpy
+from rclpy.node import Node
+import time
+import numpy as np
+import serial
+
+from std_msgs.msg import Int64
+
+
+'''
+import time
+start_time = time.time()
+main()
+print("--- %s seconds ---" % (time.time() - start_time))
+'''
+arduino_motores=serial.Serial(port='PuertoConectado de Arduino', baudrate=9600,timeout=.1)
+class TalkerNode(Node):
+
+    def __init__(self):
+
+
+        #Creacion del nodo standard en ros
+        super().__init__("talker")
+
+        self.publisher_ = self.create_publisher(Int64, 'velocidad_rover', 10)
+        time_period = 0.01  #Estrictamente necesario si queremos que la medida del tiempo sea precisa
+        self.timer = self.create_timer(time_period, self.time_callback)
+        self.velocidad = None #Inicializamos en none
+        self.tiempo_inicio = time.time()
+
+
+
+    #Funcion que llamara al algoritmo
+    #Para fines del espozo se tendra la velocidad fija, pero se espera que esta se obtenga de los datos del rover
+    #igualmente
+    def time_callback(self):
+        self.velocidad =int(arduino_motores.readline())#Verificar si el dato nos da valores en UTF-8
+        if self.velocidad!=None and np.floor((self.tiempo_inicio - time.time())* self.velocidad )%47 == 0:
+            self.tiempo_inicio = time.time()
+            msg = Int64()
+            msg.data = 1
+            self.publisher_.publish(msg)
+
+
+
+
+###Funcion main para que se llame desde el setup
+def main(args = None):
+    rclpy.init(args= args)
+
+    #creacion
+    talker = TalkerNode()
+
+    #uso
+    rclpy.spin(talker)
+
+    #destruccion
+    talker.destroy_node()
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()
