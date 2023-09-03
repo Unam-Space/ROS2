@@ -3,7 +3,7 @@ from rclpy.node import Node
 import time
 import numpy as np
 
-
+from random import randint
 from std_msgs.msg import Int64
 
 
@@ -38,7 +38,20 @@ class TalkerNode(Node):
             
             self.tiempo_inicio = time.time()
             msg = Int64()
-            msg.data = 1
+            
+            '''
+            Temporal, en esta parte se debe de ejecutar la orden del regreso
+            '''
+            regresar:bool = (11 == randint(0,20))
+            
+            
+            if regresar:
+                #Mensaje para regresar
+                msg.data = 2
+            else:
+                #Menesaje para continuar 
+                msg.data = 1
+                
             self.publisher_.publish(msg)
             
 
